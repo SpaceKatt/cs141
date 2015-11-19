@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package cs141.week4.lab3;
+package cs141.lab3;
 
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
