@@ -24,12 +24,12 @@ package cs141.lab7;
 public class Q1point3 {
     public static void main(String[] args) {
         double[] x = {8, 4, 5, 21, 7, 9, 18, 2, 100};
-        System.out.println("Before rotation:  ==============================");
+        System.out.println("Before rotation:  =============================");
         for (int i = 0; i < x.length; i++) {
             System.out.println("x[" + i + "]:  " + x[i]);
         }
         double[] y = rotate(x, 14);
-        System.out.println("After rotation:  ==============================");       
+        System.out.println("After rotation:  ==============================");
         for (int i = 0; i < y.length; i++) {
             System.out.println("y[" + i + "]:  " + y[i]);
         }
