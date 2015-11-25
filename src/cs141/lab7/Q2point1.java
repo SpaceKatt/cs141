@@ -26,6 +26,7 @@ public class Q2point1 {
     public static void main(String[] args) {
         String[] names = {"Cathy", "Ben", "Jorge", "Wanda", "Freddie"};
         CustomerLister customsLister = new CustomerLister(names);
+        
         System.out.println("Using a standard for loop to print names...");
         customsLister.standardFor();
         System.out.println("Using an enhanced for loop to print names...");
